@@ -9,8 +9,8 @@
               <groupId>org.apache.maven.plugins</groupId>
               <artifactId>maven-compiler-plugin</artifactId>
               <configuration>
-                  <source>1.8</source>
-                  <target>1.8</target>
+                  <source>1.13</source>
+                  <target>1.13</target>
               </configuration>
           </plugin>
       </plugins>
@@ -29,12 +29,11 @@
            <type>jar</type>
            <scope>provided</scope>
        </dependency>
-       <dependency>
+	   <dependency>
            <groupId>io.github.antalafilip</groupId>
            <artifactId>CraftManager</artifactId>
            <version>1.0.1</version>
-           <scope>system</scope>
-           <systemPath>R:/eclipse-workspace/ManhuntManager/src/main/resources/CraftManager-1.0.1.jar</systemPath>
+           <scope>provided</scope>
        </dependency>
    </dependencies>
 </project>
